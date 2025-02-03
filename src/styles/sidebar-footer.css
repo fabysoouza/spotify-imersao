@@ -132,6 +132,7 @@ body{
     text-transform: none;
     font-size: 12px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .sidebar .cookies{
@@ -150,7 +151,7 @@ body{
 
 .languages .languages__button{
     background-color: transparent;
-    border: 1px solid #878787;
+    border: 1px solid #969595;
     border-radius: 20px;
     color: #fff;
     cursor: pointer;
@@ -161,4 +162,33 @@ body{
     padding: 8px;
 }
 
+.premium-free {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px 40px;
+    background: linear-gradient( to right, #d0ac19, #eb1717, #cb2374);
+    width: 1460px;
+}
 
+.premium-free__content .text {
+    font-family: var(--font-dm-sans);
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.premium-free__button {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+}
